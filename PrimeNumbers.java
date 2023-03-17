@@ -34,11 +34,11 @@ public class PrimeNumbers {
 			if( num > maximum )
 			{
 				maximum = num;
-			}//end if 
+			}//end if statement
 			if( num < minimum )
 			{
 				minimum = num;
-			}//end if
+			}//end if statment
 			
 		
 			System.out.println( "Enter a positive integer. Enter -1 to quit." );
@@ -68,8 +68,8 @@ public class PrimeNumbers {
 			if( num % index == 0)
 			{
 				prime = false;
-			}//end if
-		}//end for
+			}//end if statement
+		}//end for loop
 		
 		if( prime )
 		{
